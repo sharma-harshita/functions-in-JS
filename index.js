@@ -53,7 +53,7 @@ console.log("hello world");
 
 // regular functions
 
-//  function expression : 
+// function expression : 
 // You can create a function and assign the function's value to a variable. This is known as function expression.
 const a = function (){
     return 1;
