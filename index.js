@@ -59,9 +59,34 @@ const a = function (){
     return 1;
 }
 
+console.log(a());
+
+
 // arrow function
 const displayUserInfo = () => {     // arrow function came in the latest version of JS : ES6
     console.log("USER INFORMATION");
 }
 
+
+displayUserInfo()
+
+
+var x = 10;
+
+function A(){
+    // var x;
+    console.log(x);
+
+    function B(){
+        var x = 30;
+        console.log(x);
+    }
+
+    B();
+}
+
+A();
+console.log(x);
+
+//the value of the variable got shadowed , which means when you are inside the block you will be accessing the value of the variable which is defined inside the block not the one which in outside : SHADOWING IN JS
 
