@@ -1,8 +1,8 @@
 // First class functions =======
 // These  are those functions :
-// which can be passed as an argument to a function, 
-// can be returned from a function.
-// which can be assigned to a variable
+// which can be passed as an argument to a function, : line 10
+// can be returned from a function. : line 22
+// which can be assigned to a variable : line 29
 
 
 
@@ -31,6 +31,6 @@ const employ = function(){
 }
 
 // Higher order functions 
-// These are those functions 
-// which can take a function as an argument
-// or which can return a function.
+// These are those functions :
+// 1 > which can take a function as an argument : b
+// 2 > or which can return a function. : displayUser
